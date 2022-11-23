@@ -1,0 +1,97 @@
+* { /*CSS RESET*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.seccion-azul {
+    background-color: #2b5b84;
+    padding: 15px;
+    color: white;
+}
+
+header img {
+    display: inline-block;
+    width: 350px;
+}
+
+.header-right {
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 340px;
+}
+
+.header-right a {
+    color: #c5c50d;
+}
+
+#search {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-top: 5px;;
+}
+
+#search input {
+    text-align: center;
+    height: 30px;
+}
+
+#search button {
+    background-color: #2b5b84;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    width: 50px;
+}
+
+nav {
+    width: 800px;
+    background-color: #3e79ad;
+    border-radius: 5px;
+    margin: 0 auto;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 4px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 4px 0px rgba(50, 50, 50, 0.75);
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px 26px;
+}
+
+nav li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.left-list {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none; /*Quita viñetas*/
+    margin-left: 100px;
+    width: 150px;
+}
+
+.left-list span {
+    color: #c5c50d;
+    font-size: 9px;
+}
+
+.left-list a {
+    color: white;
+}
+
+.left-list li {
+    margin-bottom: 5px;
+}
+
+.right-text {
+    width: 600px;
+    display: inline-block;
+}
